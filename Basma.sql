@@ -101,8 +101,18 @@ INSERT INTO Indices (id_indice, description, id_room) VALUES (4,
 , 4);
 INSERT INTO Indices (id_indice, description, id_room) VALUES (5,
 'Bijou abandonné dans le jardin'
-, 5)
+, 5);
 
+
+
+SELECT * FROM Invités;
+
+
+SELECT nom, statut FROM Invités;
+
+
+SELECT COUNT(*) as total_invité
+FROM Invités;
 
 
 
