@@ -114,5 +114,12 @@ SELECT nom, statut FROM Invités;
 SELECT COUNT(*) as total_invité
 FROM Invités;
 
+SELECT COUNT(*) 
+FROM Invités 
+WHERE statut = 'suspect';
+
+
+
+
 
 
