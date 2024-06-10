@@ -127,5 +127,10 @@ SELECT * FROM Mouvements
 ORDER BY time DESC 
 LIMIT 1;
 
+SELECT nom_objet, id_room 
+FROM Objets 
+ORDER BY id_room asc;
+
+
 
 
